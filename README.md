@@ -52,4 +52,4 @@ That's it. You're ready to go.
 
 
 ---
-made with 
+Made with ❤️ by Nyx
