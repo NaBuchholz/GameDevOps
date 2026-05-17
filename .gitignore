@@ -1,0 +1,12 @@
+
+# Godot Engine
+.godot/
+ 
+# Build outputs
+builds/
+ 
+# VS Code
+.vscode/
+ 
+# Rider e IntelliJ
+.idea/
