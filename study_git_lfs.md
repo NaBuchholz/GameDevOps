@@ -75,6 +75,9 @@ Esse é o erro mais comum e mais doloroso. Se você commitar um arquivo grande *
 ### 🔗 Relacionado
 
 ### 📚 Fonte
+
 - https://www.atlassian.com/br/git/tutorials/git-lfs
 - https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-git-lfs-objects-in-archives-of-your-repository
 - https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-git-large-file-storage#pointer-file-format
+- https://www.youtube.com/watch?v=bcSeZ-aGdPY
+- https://youtu.be/RWceutLnVTU?t=346
