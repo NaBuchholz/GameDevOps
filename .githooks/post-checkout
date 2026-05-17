@@ -1,0 +1,12 @@
+#!/bin/bash
+
+PREV_HEAD="$1"
+NEW_HEAD="$2"
+IS_BRANCH_CHECKOUT="$3"
+
+if [ "$IS_BRANCH_CHECKOUT" = "1" ]; then
+    echo "Pulling LFS assets for current branch..."
+    git lfs pull
+    echo "LFS assets updated."
+fi
+exit 0

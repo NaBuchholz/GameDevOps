@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Pulling LFS assets after merge..."
+git lfs pull
+echo "LFS assets updated."
+
+exit 0

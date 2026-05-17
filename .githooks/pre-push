@@ -1,0 +1,19 @@
+#!/bin/bash
+
+echo "Checking LFS pointers before push..."
+
+git lfs check-pointer --stdin < <(git diff --cached --name-only)
+
+if [ $? -ne 0 ]; then
+    echo ""
+    echo "ERROR: Some files that should be tracked by LFS are being pushed as raw binaries."
+    echo "To fix this, run:"
+    echo ""
+    echo "  git lfs migrate import --include='your-file' --no-rewrite"
+    echo ""
+    echo "Push cancelled."
+    exit 1
+fi
+
+echo "LFS check passed."
+exit 0
