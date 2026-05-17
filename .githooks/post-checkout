@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 PREV_HEAD="$1"
 NEW_HEAD="$2"

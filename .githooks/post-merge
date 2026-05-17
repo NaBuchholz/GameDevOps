@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 echo "Pulling LFS assets after merge..."
 git lfs pull
